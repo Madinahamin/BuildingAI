@@ -1,7 +1,7 @@
-# SmartKök AI-baserad recept och matplanerare
+# SmartKök – AI Recipe and Meal Planner
 Final project for the Building AI course
 ## Summary
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+SmartKök is an AI-assisted recipe and meal planning tool that helps users get inspiration for meals based on ingredients they already have at home. By entering a list of available items, the AI generates simple, creative recipe suggestions in natural language. The purpose is to reduce food waste, make everyday cooking less stressful, and help users get more out of what’s already in their fridge or pantry.
 ## Background
 Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
 This is how you make a list, if you need one:
