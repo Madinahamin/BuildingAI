@@ -1,7 +1,7 @@
 # SmartKök – AI Recipe and Meal Planner
 Final project for the Building AI course
 ## Summary
-SmartKök is an AI-assisted recipe and meal planning tool that helps users get inspiration for meals based on ingredients they already have at home. By entering a list of available items, the AI generates simple, creative recipe suggestions in natural language. The purpose is to reduce food waste, make everyday cooking less stressful, and help users get more out of what’s already in their fridge or pantry.
+SmartKök is an AI-assisted recipe and meal planning tool that helps users get inspiration for meals based on ingredients they already have at home. By entering a list of available items, the AI generates simple, creative recipe suggestions in natural language. The purpose is to reduce food waste, make everyday cooking less stressful, and help users get more out of what’s already in their fridge or pantry. SmartKök is ideal for people who often feel uninspired when cooking, who want to avoid throwing away food, or who want to explore new ideas without having to follow a strict recipe. The interaction is simple: the user types what they have, and the AI responds with a custom meal suggestion. This prototype serves as a proof of concept for how AI can support everyday tasks in a helpful and accessible way. With further development, SmartKök could be expanded into a full app with saved favorites, a grocery list generator, and even visual input using image recognition.
 ## Background
 Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
 This is how you make a list, if you need one:
