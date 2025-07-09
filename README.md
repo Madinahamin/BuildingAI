@@ -1,48 +1,70 @@
-# SmartKök – AI Recipe and Meal Planner
+# PlotMatch – An AI-Based Recommendation Engine for Manga and Manhwa  
 Final project for the Building AI course
-## Summary
-SmartKök is an AI-assisted recipe and meal planning tool that helps users get inspiration for meals based on ingredients they already have at home. By entering a list of available items, the AI generates simple, creative recipe suggestions in natural language. The purpose is to reduce food waste, make everyday cooking less stressful, and help users get more out of what’s already in their fridge or pantry. SmartKök is ideal for people who often feel uninspired when cooking, who want to avoid throwing away food, or who want to explore new ideas without having to follow a strict recipe. The interaction is simple: the user types what they have, and the AI responds with a custom meal suggestion. This prototype serves as a proof of concept for how AI can support everyday tasks in a helpful and accessible way. With further development, SmartKök could be expanded into a full app with saved favorites, a grocery list generator, and even visual input using image recognition.
-## Background
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-## How is it used?
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-   totPop = sum(pop)
-   totFish = sum(fishers)
-   # write your solution here
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-main()
-```
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-## Challenges
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
-## What next?
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-## Acknowledgments
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+
+## Summary  
+PlotMatch is an AI-powered recommendation engine for manga and manhwa that focuses on emotional tone, character dynamics, and narrative themes. Instead of relying solely on genres or popularity, it suggests titles that resonate with what the user actually enjoys in a story, such as specific character archetypes or story arcs.
+
+## Background  
+Most manga/manhwa recommendation systems are based on genre tags or overall popularity. But readers often connect more deeply with specific emotional elements or character types in a story. It can be frustrating and time-consuming to search for new titles with similar vibes manually.
+
+This project addresses:
+* The lack of story driven recommendations in manga/manhwa platforms  
+* The difficulty of finding titles with similar emotional or narrative structure  
+* A desire for more personalized and meaningful discovery  
+
+My motivation comes from being a fan of storytelling driven manga/manhwa who often struggles to find similar content once a favorite series ends. PlotMatch aims to fill that gap using natural language understanding and semantic matching.
+
+## How is it used?  
+1. The user inputs a favorite title, character archetype, or story keyword (e.g. "tragic hero", "redemption arc", "grumpy/sunshine dynamic").
+2. PlotMatch builds a semantic profile from their input using NLP techniques.
+3. It searches a database of manga/manhwa metadata and fan descriptions for similar patterns.
+4. The user receives 5 - 10 recommendations, each with short explanations of why it was matched.
+
+PlotMatch is ideal for:
+* Manga/manhwa fans looking for story based suggestions
+* New readers unsure where to start
+* Writers seeking story inspiration
+
+<img src="https://eight-trees.net/wp-content/uploads/2022/07/animate-kyoto-shop-front.jpg" width="300">
+
+## Data sources and AI methods  
+PlotMatch uses:
+* Publicly available synopsis and metadata from sites like [MyAnimeList](https://myanimelist.net), [MangaUpdates](https://www.mangaupdates.com), [AniList](https://anilist.co)
+* Fan-generated tags and reviews from Reddit, NovelUpdates, Tumblr
+* Sentence embedding models (e.g. BERT, Sentence Transformers) to analyze and compare narrative similarity
+* Optionally, collaborative filtering in later versions
+
+| Data Type           | Source                              |
+|---------------------|-------------------------------------|
+| Synopsis/Metadata   | MyAnimeList, AniList, MangaUpdates  |
+| Fan Tags & Reviews  | Reddit, NovelUpdates, Tumblr        |
+| Embedding Models    | Pretrained BERT, SBERT              |
+
+## Challenges  
+PlotMatch does not:
+* Guarantee 100% accuracy - emotional tone and character dynamics are subjective
+* Support multilingual data processing yet – this may lead to bias toward English tagged titles
+* Cover the entire manga/manhwa landscape – niche series may be underrepresented
+
+Ethical considerations:
+* Attribution of metadata and fan generated content  
+* Preventing bias toward popular or mainstream titles  
+* Ensuring diversity in recommendations
+
+## What next?  
+To improve PlotMatch, future steps include:
+* Building a front end interface or chatbot for user interaction
+* Expanding multilingual support and more robust text normalization
+* Collecting user feedback to train a reinforcement learning component
+* Adding visual input (e.g. art style recognition via computer vision)
+
+Skills or help needed:
+* Frontend development (React or similar)
+* More diverse datasets for story and character types
+* NLP optimization for creative storytelling domains
+
+## Acknowledgments  
+* Inspired by real frustrations as a manga/manhwa lover  
+* Based on research into semantic search and NLP (HuggingFace Transformers)  
+* Synopses from [MyAnimeList](https://myanimelist.net), licensed under fair use  
+** Image: [Manga Store in Kyoto](https://eight-trees.net/wp-content/uploads/2023/03/1-1.jpg) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
