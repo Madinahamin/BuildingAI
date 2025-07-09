@@ -67,5 +67,5 @@ Skills or help needed:
 ## Acknowledgments  
 * Inspired by real frustrations as a manga/manhwa lover  
 * Based on research into semantic search and NLP (HuggingFace Transformers)  
-* Synopses from [MyAnimeList](https://myanimelist.net), licensed under fair use  
+* Synopses from [MyAnimeList](https://myanimelist.net), [MangaUpdates](https://www.mangaupdates.com), licensed under fair use  
 ** Image: [Manga Store in Kyoto](https://eight-trees.net/wp-content/uploads/2023/03/1-1.jpg) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
