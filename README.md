@@ -25,8 +25,7 @@ PlotMatch is ideal for:
 * New readers unsure where to start
 * Writers seeking story inspiration
 
-<img src="[https://eight-trees.net/wp-content/uploads/2022/07/animate-kyoto-shop-front.jpg](https://eight-trees.net/wp-content/uploads/2023/03/1-1.jpg)![image](https://github.com/user-attachments/assets/982e5607-40fa-4729-a2cb-2602ffbf2795)
-" width="300">
+![Manga books](https://live.staticflickr.com/6151/6151046815_3853dbe3d0_b.jpg)
 
 ## Data sources and AI methods  
 PlotMatch uses:
@@ -68,4 +67,4 @@ Skills or help needed:
 * Inspired by real frustrations as a manga/manhwa lover  
 * Based on research into semantic search and NLP (HuggingFace Transformers)  
 * Synopses from [MyAnimeList](https://myanimelist.net), [MangaUpdates](https://www.mangaupdates.com), licensed under fair use  
-** Image: [Manga Store in Kyoto](https://eight-trees.net/wp-content/uploads/2023/03/1-1.jpg) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+* Image: “Manga books” by Ruth Hartnup, via [Flickr](https://www.flickr.com/photos/95142644@N00/6151046815) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
