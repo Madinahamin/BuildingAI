@@ -25,7 +25,8 @@ PlotMatch is ideal for:
 * New readers unsure where to start
 * Writers seeking story inspiration
 
-![Manga books](https://live.staticflickr.com/6151/6151046815_3853dbe3d0_b.jpg)
+[![Manga books](https://live.staticflickr.com/6151/6151046815_3853dbe3d0_b.jpg)](https://live.staticflickr.com/6169/6151046815_f3963f93c4_o.jpg)![Uploading image.png…]()
+
 
 ## Data sources and AI methods  
 PlotMatch uses:
