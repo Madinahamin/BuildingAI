@@ -25,18 +25,19 @@ PlotMatch is ideal for:
 * New readers unsure where to start
 * Writers seeking story inspiration
 
-<img src="https://eight-trees.net/wp-content/uploads/2022/07/animate-kyoto-shop-front.jpg" width="300">
+<img src="[https://eight-trees.net/wp-content/uploads/2022/07/animate-kyoto-shop-front.jpg](https://eight-trees.net/wp-content/uploads/2023/03/1-1.jpg)![image](https://github.com/user-attachments/assets/982e5607-40fa-4729-a2cb-2602ffbf2795)
+" width="300">
 
 ## Data sources and AI methods  
 PlotMatch uses:
-* Publicly available synopsis and metadata from sites like [MyAnimeList](https://myanimelist.net), [MangaUpdates](https://www.mangaupdates.com), [AniList](https://anilist.co)
+* Publicly available synopsis and metadata from sites like [MyAnimeList]([https://myanimelist.net](https://myanimelist.net)), [MangaUpdates][(https://www.mangaupdates.com)](https://www.mangaupdates.com)
 * Fan-generated tags and reviews from Reddit, NovelUpdates, Tumblr
 * Sentence embedding models (e.g. BERT, Sentence Transformers) to analyze and compare narrative similarity
 * Optionally, collaborative filtering in later versions
 
 | Data Type           | Source                              |
 |---------------------|-------------------------------------|
-| Synopsis/Metadata   | MyAnimeList, AniList, MangaUpdates  |
+| Synopsis/Metadata   | MyAnimeList, MangaUpdates  |
 | Fan Tags & Reviews  | Reddit, NovelUpdates, Tumblr        |
 | Embedding Models    | Pretrained BERT, SBERT              |
 
