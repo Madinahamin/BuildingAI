@@ -30,7 +30,7 @@ PlotMatch is ideal for:
 
 ## Data sources and AI methods  
 PlotMatch uses:
-* Publicly available synopsis and metadata from sites like [MyAnimeList]([https://myanimelist.net](https://myanimelist.net), [MangaUpdates][(https://www.mangaupdates.com)](https://www.mangaupdates.com)
+* Publicly available synopsis and metadata from sites like [MyAnimeList] [(https://www.myanimelist.net)](https://www.myanimelist.net)([https://myanimelist.net](https://myanimelist.net), [MangaUpdates][(https://www.mangaupdates.com)](https://www.mangaupdates.com)
 * Fan-generated tags and reviews from Reddit, NovelUpdates, Tumblr
 * Sentence embedding models (e.g. BERT, Sentence Transformers) to analyze and compare narrative similarity
 * Optionally, collaborative filtering in later versions
